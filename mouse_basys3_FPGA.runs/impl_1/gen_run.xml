@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1512794485">
+  <File Type="ROUTE-PWR" Name="mouse_basys3_FPGA_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="mouse_basys3_FPGA.tcl"/>
+  <File Type="BITSTR-MSK" Name="mouse_basys3_FPGA.msk"/>
+  <File Type="ROUTE-CLK" Name="mouse_basys3_FPGA_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="mouse_basys3_FPGA.vdi"/>
+  <File Type="BITSTR-NKY" Name="mouse_basys3_FPGA.nky"/>
+  <File Type="BG-BIT" Name="mouse_basys3_FPGA.bit"/>
+  <File Type="BG-DRC" Name="mouse_basys3_FPGA.drc"/>
+  <File Type="BG-BGN" Name="mouse_basys3_FPGA.bgn"/>
+  <File Type="BG-BIN" Name="mouse_basys3_FPGA.bin"/>
+  <File Type="BITSTR-RBT" Name="mouse_basys3_FPGA.rbt"/>
+  <File Type="BITSTR-BMM" Name="mouse_basys3_FPGA_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="mouse_basys3_FPGA.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mouse_basys3_FPGA_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="mouse_basys3_FPGA.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="mouse_basys3_FPGA_drc_opted.rpt"/>
+  <File Type="PLACE-IO" Name="mouse_basys3_FPGA_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mouse_basys3_FPGA_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mouse_basys3_FPGA_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mouse_basys3_FPGA_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mouse_basys3_FPGA_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="mouse_basys3_FPGA_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mouse_basys3_FPGA_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-SUM" Name="mouse_basys3_FPGA_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="mouse_basys3_FPGA_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mouse_basys3_FPGA_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="mouse_basys3_FPGA_routed.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mouse_basys3_FPGA_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mouse_basys3_FPGA_timing_summary_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="mouse_basys3_FPGA_incremental_reuse_routed.rpt"/>
+  <File Type="OPT-DCP" Name="mouse_basys3_FPGA_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="mouse_basys3_FPGA_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="mouse_basys3_FPGA_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mouse_basys3_FPGA_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="mouse_basys3_FPGA_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mouse_basys3_FPGA_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mouse_basys3_FPGA_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mouse_basys3_FPGA_timing_summary_postroute_physopted.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="mouse_basys3_FPGA_power_routed.rpx"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mouse_basys3_FPGA_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="mouse_basys3_FPGA_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mouse_basys3_FPGA_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mouse_basys3_FPGA_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="mouse_basys3_FPGA_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="mouse_basys3_FPGA_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="mouse_basys3_FPGA_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mouse_basys3_FPGA_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mouse_basys3_FPGA_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mouse_basys3_FPGA_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mouse_basys3_FPGA_bus_skew_postroute_physopted.pb"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pin.xdc">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

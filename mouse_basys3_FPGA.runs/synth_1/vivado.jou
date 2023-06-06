@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:27:54 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sat Dec 09 12:41:31 2017
+# Process ID: 8172
+# Log file: D:/Zynq_project/mouse_basys3_FPGA/mouse_basys3_FPGA.runs/synth_1/mouse_basys3_FPGA.vds
+# Journal file: D:/Zynq_project/mouse_basys3_FPGA/mouse_basys3_FPGA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mouse_basys3_FPGA.tcl
